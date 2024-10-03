@@ -1,0 +1,13 @@
+ <rss>
+   <channel>
+     <title>Dissolution</title>
+     <link>https://dissolution.digital/</link>
+     <description>A blog where I talk about tech and tech-related things</description>
+     <language>en-us</language>
+     <image>
+         <title> Dissolution </title>
+         <url> https://dissolution.digital/static/favicon.png </url>
+         <link> http://dissolution.digital/static/favicon.png </link>
+     </image>
+   </channel>
+ </rss>

@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img {
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: white;
+    margin: auto;
+    width: 80%;
+}
+
+h2 {
+    font-family: sans-serif;
+    color: white;
+    margin: auto;
+    width: 80%;
+}
+
+h3 {
+    font-family: sans-serif;
+    color: white;
+    margin: auto;
+    width: 80%;
+}
+
+p {
+    font-family: sans-serif;
+    margin: auto;
+    width: 80%;
+    color: white;
+}
