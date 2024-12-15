@@ -26,9 +26,15 @@ func ProcessMdtoHTML(lines []string) ProcessedMD {
 		} else if strings.HasPrefix(lineText, "## ") {
 			workText = strings.ReplaceAll(lineText, "## ", "<h2>")
 			workText += "</h2>"
+			if body == true {
+				workText = "</p>" + workText + "<p>"
+			}
 		} else if strings.HasPrefix(lineText, "### ") {
 			workText = strings.ReplaceAll(lineText, "### ", "<h3>")
 			workText += "</h3>"
+			if body == true {
+				workText = "</p>" + workText + "<p>"
+			}
 		} else if strings.HasPrefix(lineText, "#### ") {
 			desc := strings.ReplaceAll(lineText, "#### ", "")
 			returnObj.Description = desc
