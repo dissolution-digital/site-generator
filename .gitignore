@@ -1,2 +1,3 @@
 *.swp
 site/
+./scripts/deploy.sh
